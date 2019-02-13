@@ -1,6 +1,7 @@
 # water
 
 Récupérer les informations importantes pour le brassage concernant l'eau du réseau public.
+
 Les informations proviennent du site du ministère : https://orobnat.sante.gouv.fr/
 
 ## Origines
@@ -21,6 +22,7 @@ La première version de water.py est celle du script mentionné précédemment.
 
 ### /villes
 Le répertoire 'villes' contient pour l'instant le script utilisé pour récupérer les informations nécessaires à water.py pour chaque ville réportorié dans la base de données du site du ministère (trouver_villes.py).
+
 Il contient également un sous-répertoire 'dpt' pour stocker les informations sur les villes et les réseaux, par département.
 
 ## Modules nécessaires
@@ -41,6 +43,7 @@ Le développement est actuellement à l'arrêt pour se concentrer sur trouver_vi
 
 ### /villes/trouver_villes.py
 La version actuelle génère un fichier .info par département contenant en ligne les données "brutes" issues du site du ministère.
+
 Cependant, le temps de recherche pour la troisième étape du script (informations concenrant les réseaux d'une ville) prend beaucoup de temps, et je ne suis pas encore allé au bout. Mais le code fonctionne en copiant dans un interprétateur de commande python.
 
 ## À faire
@@ -49,7 +52,9 @@ Sélection de la ville pour récupérer les informations
 
 ### /villes/trouver_villes.py
 Stocker les informations dans des fichiers .ini
+
 Trouver le code de recherche dans l'url du site du ministère pour les réseaux
+
 Repérer quelles informations sont disponibles pour chaque réseau de chaque ville
 
 
