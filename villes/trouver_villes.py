@@ -88,7 +88,7 @@ while i < len(resultat3):
 		tt_dpt[nom_dpt] = [resultat3[i]]
 	i += 1
 
-path = "~/villes/dpt/info"
+path = os.getcwd() + "/villes/dpt/info"
 os.chdir(path)
 liste_dpt = list(tt_dpt.keys())
 
