@@ -3,6 +3,7 @@
 
 import requests
 import re
+from bs4 import BeautifulSoup
 
 requested_data = [ ["PH *", "pH"], ["NITRATES", "Nitrates (NO3)"], ["CALCIUM", "Calcium (Ca)"] , ["MAGNÉSIUM", "Magnésium (Mg)"], ["SODIUM", "Sodium (Na)"], ["CHLORURES", "Chlorures (Cl-)"], ["SULFATES", "Sulfates (SO4)"], ["POTASSIUM", "Potassium (K)"], ["TITRE ALCALIMÉTRIQUE COMPLET", "Alkalinity as HCO3"], ["TITRE HYDROTIMÉTRIQUE", "Alkalinity as CaCO3"] ]
 
